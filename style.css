@@ -3,6 +3,21 @@ body {
     color: wheat;
 }
 
+button {
+    justify-self: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: #323232;
+    border: 2px transparent solid;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px green solid;
+}
+
 p {
     margin-top: 0;
 }
@@ -18,11 +33,9 @@ p {
 }
 
 .posCr {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    padding-right: 20vw;
-    padding-left: 20vw;
-}
+display: grid;
+height: 100vh;
+place-content: center;
+margin-right: 25%;
+margin-left: 25%;
+}   
